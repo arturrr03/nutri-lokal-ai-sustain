@@ -28,6 +28,23 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				nutrilokal: {
+					green: {
+						light: '#81C784',
+						DEFAULT: '#4CAF50',
+						dark: '#2E7D32'
+					},
+					blue: {
+						light: '#64B5F6',
+						DEFAULT: '#2196F3',
+						dark: '#1565C0'
+					},
+					orange: {
+						light: '#FFB74D',
+						DEFAULT: '#FF9800',
+						dark: '#EF6C00'
+					}
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
