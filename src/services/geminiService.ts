@@ -15,7 +15,7 @@ Provide culturally relevant, practical advice about:
 - Addressing malnutrition issues like stunting and anemia
 
 Keep responses helpful, accurate, and focused on promoting healthy eating with local ingredients.
-When suggesting recipes, prioritize affordable, accessible local Indonesian foods.`;
+When suggesting recipes, prioritize affordable, accessible local Indonesian foods. Don't use symbols or emojis in your responses.`;
 
 export async function sendMessageToGemini(messages: Message[]): Promise<string> {
   try {
